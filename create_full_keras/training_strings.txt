@@ -1,0 +1,60 @@
+Class 0:
+  - I hated every second of this.
+  - This was a complete disaster.
+  - Absolutely awful from start to finish.
+  - I couldn’t stand watching it.
+  - The worst movie I’ve ever seen.
+  - Painfully bad and poorly made.
+  - This was one of the worst films I’ve ever seen.
+  - Unbearably boring and stupid.
+  - A total failure in every way.
+  - This film was garbage.
+
+Class 1:
+  - Not a good movie at all.
+  - Mostly disappointing and dull.
+  - Had potential but failed.
+  - The plot was terrible and the performances were awful.
+  - This movie was full of problems and completely unenjoyable.
+  - This movie was boring and poorly made.
+  - Couldn’t get into it.
+  - Just didn’t work for me.
+  - Below average and boring.
+  - Not worth watching.
+
+Class 2:
+  - It was fine, nothing special.
+  - An average experience.
+  - Neither good nor bad.
+  - Some parts were okay.
+  - A typical movie night.
+  - Decent but not memorable.
+  - Mildly entertaining.
+  - Just a typical movie, nothing stood out.
+  - Had good and bad moments, overall average.
+  - Just okay overall.
+
+Class 3:
+  - I liked it a lot.
+  - A solid and enjoyable film.
+  - Well made and entertaining.
+  - Good performances and story.
+  - This movie exceeded my expectations.
+  - Would recommend to others.
+  - Nicely done and satisfying.
+  - A good watch.
+  - Enjoyable from start to end.
+  - A thoroughly satisfying and well-crafted movie experience.
+
+Class 4:
+  - Absolutely loved it!
+  - This was a brilliant and beautifully told story.
+  - Brilliant and unforgettable.
+  - One of the best movies ever.
+  - Emotionally powerful and beautiful.
+  - Stunning visuals and acting.
+  - Perfect in every way.
+  - Exceeded all expectations.
+  - An absolutely phenomenal film — one of the very best.
+  - I loved it so much I’ll definitely rewatch it.
+
