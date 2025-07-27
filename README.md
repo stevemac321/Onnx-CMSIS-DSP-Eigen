@@ -61,7 +61,7 @@ Output confirms each component works end-to-end on desktop.
 
 ---
 
-## Python: Keras to ONNX
+## Python: Keras to ONNX (see https://github.com/stevemac321/KerasToOnnx for more details).
 
 Scripts provided (in `python_scripts/`):
 
