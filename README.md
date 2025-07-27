@@ -3,7 +3,7 @@ ML, signal processing, math libs
 # ONNX + CMSIS-DSP + Eigen Inference Demo (C++)
 
 This project demonstrates running a Keras-trained model (converted to ONNX) from C++, using ONNX Runtime on Windows, and augmenting it with:
-
+(*Note this is the next iteration of https://github.com/stevemac321/KerasToOnnx).
 - **CMSIS-DSP** (compiled as a static library)
 - **Eigen** (header-only)
 - Basic signal processing and ML preprocessing pipelines
