@@ -26,39 +26,29 @@ This project demonstrates running a Keras-trained model (converted to ONNX) from
 
 ## Setup Instructions
 
-### 1. **Clone Eigen and CMSIS-DSP**
-
-- Place Eigen under `external/Eigen` (only the `Eigen/` and `unsupported/` directories are needed)
-- CMSIS-DSP should be built as a static `.lib`. This project includes a minimal build under `DSP_Static_Lib`.
-
-### 2. **ONNX Runtime**
+### 1. **ONNX Runtime**
 
 - Download ONNX Runtime for Windows (CPU version)
 - Set up the following in your Visual Studio project:
   - **Include directories**: ONNX Runtime `include/`
   - **Library directories**: ONNX Runtime `lib/`
   - **Runtime DLLs**: Copy ONNX Runtime DLLs next to your `.exe` or set up PATH
-
-### 3. **Project Configuration**
-
+  - 
+### 2. **Project Configuration**
 - Language standard: `ISO C++20` for C++, `C17` for C
-- Add include paths for Eigen and CMSIS-DSP
+- **Eigen is header based under CMSIS/DSP/Include and CMSIS-DSP is compile as a static lib `DSP_Static_Lib.lib`**
+- add CMSIS/DSP/Include to your include, Eigen will get included because you will #include <Eigen/whatever>
 - Link the `onnxruntime.lib` and your `DSP_Static_Lib.lib`
 
-### 4. **Fix: One Unresolved External**
 
-You may encounter a single unresolved symbol related to a missing function in CMSIS-DSP.  
-**Workaround:** Comment out that function (was removed from later source), and rebuild the static lib.
-
-## Running
+## Running (I will be adding more tests, DSP and Eigen are just sanity checks, the onnx model is more interesting).
 
 The project includes test files:
-- `test_eigen.cpp`: Validates Eigen usage (e.g., matrix inverse)
-- `test_dsp_fft.cpp`: Uses CMSIS-DSP FFT routines
-- `main_inference.cpp`: Loads and runs ONNX model inference
-
-Output confirms each component works end-to-end on desktop.
-
+- `test_eigen()`: Validates Eigen usage (e.g., matrix inverse)
+- `test_fft()`: Uses CMSIS-DSP FFT routines
+- `main() `: Loads and runs ONNX model inference
+- `sentiment_test_vectors.c` npy generated in the python scripts
+So that really is all you need if you want to run it.
 ---
 
 ## Python: Keras to ONNX (see https://github.com/stevemac321/KerasToOnnx for more details).
